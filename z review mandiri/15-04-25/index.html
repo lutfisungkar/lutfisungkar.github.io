@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        height: 100vh;
+        gap: 30px;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        height: 370px;
+        width: 260px;
+        /* background-color: blue; */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+    .text {
+        padding: 10px;
+
+    }
+    img {
+        height: 160px;
+        padding: 0;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+    button {
+        width: 80px;
+        height: 25px;
+        margin-block: 10px;
+        background-color: rgb(255, 161, 30);
+        border-style: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 650;
+    }
+
+    
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="robot" src="./gambar_robot.jpg">
+            <div class="text">
+                <span style= "color: grey; font-size: 15px">April 12 ,2025</span>
+                <h2>Ai Is Changing Jurnalism</h2>
+                <span>By Jhon Doe</span>
+                <p>Artificial Intelligence is now widely used in the newsroom, changing how articles are written, analyzed, and even distributed...</p>
+                <button>
+                    <span>Read More</span>
+                </button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="justice" src="./justice.jpg" alt="">
+            <div class="text">
+                <span style= "color: grey; font-size: 15px">April 11 ,2025</span>
+                <h2>Election 2025: What do Expect</h2>
+                <span>By John Smith</span>
+                <p>With the upcoming election just months away, political analysts are predicting a shift in public opinion based on recent...</p>
+                <button>
+                    <span>Read More</span>
+                </button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="gold" src="./Gold.jpg" alt="">
+            <div class="text">
+                <span style= "color: grey; font-size: 15px">April 10 ,2025</span>
+                <h2>Global Market Trends in Q1</h2>
+                <span>By Alex tan</span>
+                <p>The global economy saw unexpected growth in the first quarter, with tech stocks leading the way in most financial markets...</p>
+                <button>
+                    <span>Read More</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

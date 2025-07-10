@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .display {
+        height: 37rem;
+        width: 19rem;
+        background-color: black;
+    }
+    .notification {
+        color: white;
+    }
+    .result {
+        height: 10rem;
+        background-color: black;
+        font-size: 5rem;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-right: 1rem;
+        color: white;
+    }
+    .number_keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        height: 350px;
+        padding-right: 5px;
+        padding-left: 7px;
+        color: white;
+    }
+    .number_keys .number {
+        background-color: #454545;
+        height: 61px;
+        width: 61px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+    }
+    .number-bottom {
+        display: flex;
+        width: ;
+        background-color: #a71e1e;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <div class="notification">
+                <span class="battery">9:14</span>
+                <!-- icon wifi, batery & signal -->
+            </div>
+            <div class="result">
+                <span>0</span>
+            </div>
+            <div class="number_keys">
+                <div class="number" style="background-color:rgb(156, 154, 154) ;">AC</div>
+                <div class="number" style="background-color:rgb(156, 154, 154) ;">+/-</div>
+                <div class="number" style="background-color:rgb(156, 154, 154) ;">%</div>
+                <div class="number" style="background-color:rgb(252, 128, 18);">/</div>
+                <div class="number" >7</div>
+                <div class="number">8</div>
+                <div class="number">9</div>
+                <div class="number" style="background-color:rgb(252, 128, 18);">x</div>
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number">6</div>
+                <div class="number" style="background-color:rgb(252, 128, 18);">-</div>
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number" style="background-color:rgb(252, 128, 18);">+</div>
+            </div>
+            <div class="number-bottom">
+                <div class="number">0</div>
+                <div class="number">,</div>
+                <div class="number">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
